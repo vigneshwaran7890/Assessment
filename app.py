@@ -351,6 +351,7 @@ class WMSApp:
     def __del__(self):
         self.conn.close()
 
+
 if __name__ == "__main__":
     root = tk.Tk()
     app = WMSApp(root)
